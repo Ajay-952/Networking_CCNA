@@ -3,7 +3,7 @@ Networking is a collection of interconnected devices that communicate with each 
 # what are interconnected Devices?
 Below image gives the clarity about the devices that we use in network to connect
 
-<img src="images/Interconnecting_devices.png" width="600">
+<img src="images/Interconnecting_devices.png" width="500">
 
 ## Lets Break down what each device founction in the network 
 
@@ -24,12 +24,14 @@ Switches don't provide connectivity between Lan/over the internet.
 A router have fewer network interfaces than a switch.
 Roters are used to provide connectivity between the LANs.
 Routers are therefore used to send data over the internet.
+
 <img src="images/Router_network.png" width="600">
 
 ## Firewall
 Firewall monitor and control network traffic based on configured rules.
 Firewall can be placed inside the network or outside the network.
 Firewalls are known as 'Next-Generation firewalls' when they include more modern and advanced filtering capabilities.
+
 <img src="images/Firewall_network.png" width="600">
 
 <img src="images/Screenshot 2026-09-19 190611.png" width="600">
