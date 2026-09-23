@@ -64,13 +64,13 @@
 - A subnet mask tells a computer which part of an IP address represents the network and which part represents the host/device.
 
 Ex: 
-    ```
+    ```text
      IP address:   192.168.1.10   
      Subnet mask:  255.255.255.0  
      ```
 
 So: 
-    ```
+    ```text
             IP:           192.168.1.10        
             Subnet mask:  255.255.255.0   
               ─────────────               
@@ -87,13 +87,13 @@ So:
 - If the destination device is found in same LAN network then no need to go to the "Default Router" we can directly get the mac address of the desination device.
 
    Ex:
-       ```
-           Your PC:          
-           192.168.1.10      
-           255.255.255.0     
+       ```text
+               Your PC:          
+               192.168.1.10      
+               255.255.255.0     
                              
-           Another PC:       
-           192.168.1.20      
+               Another PC:       
+               192.168.1.20      
         ```
 
        "In the above exmaple it's clearly mentioned that both the client and server both are in same network." 
@@ -101,9 +101,9 @@ So:
 - In the other case if the destination device is located in the different network 
 
    Then 
-       ```
-        192.168.1.10 → Network 192.168.1.0   
-        192.168.2.20 → Network 192.168.2.0   
+       ```text
+              192.168.1.10 → Network 192.168.1.0   
+              192.168.2.20 → Network 192.168.2.0   
        ```
 
        " So your pc needs to send the traffic through a router "
