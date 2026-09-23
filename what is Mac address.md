@@ -9,54 +9,54 @@
 - whenever we search for a webpage a request is genearted from our devices and the request gets the reply from the server no matter wether the server is in same network or different network. 
 - Ex. When you type google.com into your browser and press Enter, your laptop first needs to find the IP address associated with that domain name, so it sends a DNS request to a DNS server. Once it gets Google's IP address, your laptop checks whether that destination is on the same local network. Since Google is on a different network, your laptop sends the traffic to its default gateway, which is usually your home router. To communicate with the router on the local network, your laptop uses ARP to find the router's MAC address. Your browser then establishes a connection with Google's server
 
-`                YOU                       `
-`                 │                        `
-`                 ▼                        `
-`        Type google.com                   `
-`                 │                        `
-`                 ▼                        `
-`               DNS                        `
-`                 │                        `
-`                 ▼                        `
-`       Find Google's IP                   `
-`                 │                        `
-`                 ▼                        `
-`      Is Google on my LAN?                `
-`                 │                        `
-`                NO                        `
-`                 │                        `
-`                 ▼                        `
-`       Send to Gateway                    `
-`                 │                        `
-`                 ▼                        `
-`               ARP                        `
-`                │                         `
-`                ▼                         `
-`       Find router's MAC                  `
-`                 │                        `
-`                 ▼                        `
-`             Router                       `
-`                 │                        `
-`                 ▼                        `
-`                ISP                       `
-`                 │                        `
-`                 ▼                        `
-`       Multiple Routers                   `
-`                 │                        `
-`                 ▼                        `
-`          Google Network                  `
-`                 │                        `
-`                 ▼                        `
-`          Google Server                   `
-`                 │                        `
-`                 ▼                        `
-`            Response                      `
-`                 │                        `
-`                 ▼                        `
-`              Laptop                      `
-`                 │                        `
-`                 ▼                        `
-`          Google appears                  `
+```text         YOU                    
+                 │                        
+                 ▼                        
+        Type google.com                   
+                 │                        
+                 ▼                        
+                DNS                        
+                 │                        
+                 ▼                        
+       Find Google's IP                   
+                 │                        
+                 ▼                        
+      Is Google on my LAN?                
+                 │                        
+                NO                        
+                 │                        
+                 ▼                        
+       Send to Gateway                    
+                 │                        
+                 ▼                        
+               ARP                        
+                │                         
+                ▼                         
+       Find router's MAC                  
+                 │                        
+                 ▼                        
+             Router                       
+                 │                        
+                 ▼                        
+                ISP                       
+                 │                        
+                 ▼                        
+       Multiple Routers                   
+                 │                        
+                 ▼                        
+          Google Network                  
+                 │                        
+                 ▼                        
+          Google Server                   
+                 │                        
+                 ▼                        
+            Response                      
+                 │                        
+                 ▼                        
+              Laptop                      
+                 │                        
+                 ▼                        
+```          Google appears                  
 
 # What is Subnet mask ? 
 A subnet mask tells a computer which part of an IP address represents the network and which part represents the host/device.
