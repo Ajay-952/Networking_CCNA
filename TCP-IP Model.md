@@ -38,7 +38,7 @@ The two main transport-layer protocols are:
 - TCP
 - UDP
 
-<h6>TCP — Transmission Control Protocol<h6>
+TCP — Transmission Control Protocol
 
 TCP provides reliable and ordered communication.
 
@@ -99,7 +99,7 @@ The Internet Layer is responsible for logical addressing and routing.
 
 Its main job is to determine where packets need to go and help move them between different networks.
 
-<h6>Main Protocols<h6>
+Main Protocols
 
 - IPv4
 - IPv6
@@ -120,7 +120,7 @@ Destination IP → 142.250.x.x
 
 Routers examine the destination IP address and forward the packet toward the appropriate network.
 
-<h6> Main Device <h6>
+ Main Device 
 
 The device most closely associated with this layer is the:
 
